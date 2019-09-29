@@ -1,14 +1,13 @@
 {
-  "name": "styled-system",
+  "name": "vuejs-styled-system",
   "version": "5.1.5",
-  "description": "Responsive, theme-based style props for building design systems with React",
+  "description": "Responsive, theme-based style props for building design systems with Vue",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "keywords": [
-    "react",
+    "vue",
     "css-in-js",
-    "styled-components",
-    "emotion"
+    "vue-styled-components"
   ],
   "author": "Brent Jackson",
   "license": "MIT",
