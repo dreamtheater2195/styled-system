@@ -1,12 +1,12 @@
 {
   "name": "@vue-styled-system/variant",
-  "version": "5.1.7",
+  "version": "5.1.8",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "author": "Brent Jackson <jxnblk@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@vue-styled-system/core": "^5.1.7",
+    "@vue-styled-system/core": "^5.1.8",
     "@vue-styled-system/css": "^5.1.7"
   },
   "gitHead": "e55fab4cffcac677ff48b6c73b5f640e22b088a1",
