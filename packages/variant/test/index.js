@@ -3,7 +3,7 @@ import {
   textStyle,
   colorStyle,
 } from '../src'
-import { system, compose } from '@styled-system/core'
+import { system, compose } from '@vue-styled-system/core'
 
 const theme = {
   colors: {

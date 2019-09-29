@@ -1,5 +1,5 @@
-import { get, createParser } from '@styled-system/core'
-import css from '@styled-system/css'
+import { get, createParser } from '@vue-styled-system/core'
+import css from '@vue-styled-system/css'
 
 export const variant = ({
   scale,

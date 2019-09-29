@@ -1,4 +1,4 @@
-import { system } from '@styled-system/core'
+import { system } from '@vue-styled-system/core'
 
 const config = {
   background: true,

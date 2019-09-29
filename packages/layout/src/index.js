@@ -1,4 +1,4 @@
-import { system, get } from '@styled-system/core'
+import { system, get } from '@vue-styled-system/core'
 
 const isNumber = n => typeof n === 'number' && !isNaN(n)
 const getWidth = (n, scale) =>
