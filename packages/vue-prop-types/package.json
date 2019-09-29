@@ -6,7 +6,7 @@
   "author": "Quan Minh Pham",
   "license": "MIT",
   "devDependencies": {
-    "styled-system": "^5.1.5"
+    "vuejs-styled-system": "5.1.8"
   },
   "publishConfig": {
     "access": "public"
