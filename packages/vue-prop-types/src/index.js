@@ -12,7 +12,7 @@ import {
   buttonStyle,
   textStyle,
   colorStyle
-} from 'styled-system'
+} from 'vuejs-styled-system'
 
 export const propType = [Number, String, Array, Object]
 
