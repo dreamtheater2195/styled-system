@@ -1,6 +1,6 @@
 {
   "name": "@vue-styled-system/prop-types",
-  "version": "5.1.7",
+  "version": "5.1.9",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "author": "Quan Minh Pham",
