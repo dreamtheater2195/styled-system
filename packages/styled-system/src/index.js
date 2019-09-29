@@ -1,13 +1,13 @@
-import { createStyleFunction, createParser } from '@styled-system/core'
+import { createStyleFunction, createParser } from '@vue-styled-system/core'
 // v4 api shims
-import layout from '@styled-system/layout'
-import color from '@styled-system/color'
-import typography from '@styled-system/typography'
-import flexbox from '@styled-system/flexbox'
-import grid from '@styled-system/grid'
-import border from '@styled-system/border'
-import background from '@styled-system/background'
-import position from '@styled-system/position'
+import layout from '@vue-styled-system/layout'
+import color from '@vue-styled-system/color'
+import typography from '@vue-styled-system/typography'
+import flexbox from '@vue-styled-system/flexbox'
+import grid from '@vue-styled-system/grid'
+import border from '@vue-styled-system/border'
+import background from '@vue-styled-system/background'
+import position from '@vue-styled-system/position'
 
 export {
   get,
@@ -15,26 +15,26 @@ export {
   createStyleFunction,
   compose,
   system,
-} from '@styled-system/core'
+} from '@vue-styled-system/core'
 
-export { margin, padding, space } from '@styled-system/space'
-export { color } from '@styled-system/color'
-export { layout } from '@styled-system/layout'
-export { typography } from '@styled-system/typography'
-export { flexbox } from '@styled-system/flexbox'
-export { border } from '@styled-system/border'
-export { background } from '@styled-system/background'
-export { position } from '@styled-system/position'
-export { grid } from '@styled-system/grid'
-export { shadow } from '@styled-system/shadow'
-export { default as boxShadow, default as textShadow } from '@styled-system/shadow'
+export { margin, padding, space } from '@vue-styled-system/space'
+export { color } from '@vue-styled-system/color'
+export { layout } from '@vue-styled-system/layout'
+export { typography } from '@vue-styled-system/typography'
+export { flexbox } from '@vue-styled-system/flexbox'
+export { border } from '@vue-styled-system/border'
+export { background } from '@vue-styled-system/background'
+export { position } from '@vue-styled-system/position'
+export { grid } from '@vue-styled-system/grid'
+export { shadow } from '@vue-styled-system/shadow'
+export { default as boxShadow, default as textShadow } from '@vue-styled-system/shadow'
 
 export {
   variant,
   buttonStyle,
   textStyle,
   colorStyle
-} from '@styled-system/variant'
+} from '@vue-styled-system/variant'
 
 const {
   width,
@@ -114,7 +114,7 @@ const {
   left,
 } = position
 
-export { default as borders } from '@styled-system/border'
+export { default as borders } from '@vue-styled-system/border'
 export {
   width,
   height,
