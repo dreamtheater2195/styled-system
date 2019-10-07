@@ -8,8 +8,8 @@ test('returns layout styles', () => {
   })
   expect(style).toEqual({
     width: '100%',
-    maxWidth: 768,
-    minHeight: 32,
+    maxWidth: '768px',
+    minHeight: '32px',
     '@media screen and (min-width: 40em)': {
       width: '50%',
     },
@@ -28,7 +28,7 @@ test('returns 0 from theme.sizes', () => {
     height: 0,
   })
   expect(style).toEqual({
-    width: 24,
-    height: 24,
+    width: '24px',
+    height: '24px',
   })
 })
