@@ -1,4 +1,4 @@
-import { system } from '@vue-styled-system/core'
+import { system, getPx } from '@vue-styled-system/core'
 
 const config = {
   border: {
@@ -8,6 +8,7 @@ const config = {
   borderWidth: {
     property: 'borderWidth',
     scale: 'borderWidths',
+    transform: getPx,
   },
   borderStyle: {
     property: 'borderStyle',
@@ -20,6 +21,7 @@ const config = {
   borderRadius: {
     property: 'borderRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderTop: {
     property: 'borderTop',
@@ -28,10 +30,12 @@ const config = {
   borderTopLeftRadius: {
     property: 'borderTopLeftRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderTopRightRadius: {
     property: 'borderTopRightRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderRight: {
     property: 'borderRight',
@@ -44,10 +48,12 @@ const config = {
   borderBottomLeftRadius: {
     property: 'borderBottomLeftRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderBottomRightRadius: {
     property: 'borderBottomRightRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderLeft: {
     property: 'borderLeft',
@@ -64,6 +70,7 @@ const config = {
   borderTopWidth: {
     property: 'borderTopWidth',
     scale: 'borderWidths',
+    transform: getPx,
   },
   borderTopColor: {
     property: 'borderTopColor',
@@ -76,14 +83,17 @@ const config = {
   borderTopLeftRadius: {
     property:'borderTopLeftRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderTopRightRadius: {
     property:'borderTopRightRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderBottomWidth: {
     property: 'borderBottomWidth',
     scale: 'borderWidths',
+    transform: getPx,
   },
   borderBottomColor: {
     property: 'borderBottomColor',
@@ -96,14 +106,17 @@ const config = {
   borderBottomLeftRadius: {
     property:'borderBottomLeftRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderBottomRightRadius: {
     property:'borderBottomRightRadius',
     scale: 'radii',
+    transform: getPx,
   },
   borderLeftWidth: {
     property: 'borderLeftWidth',
     scale: 'borderWidths',
+    transform: getPx,
   },
   borderLeftColor: {
     property: 'borderLeftColor',
@@ -116,6 +129,7 @@ const config = {
   borderRightWidth: {
     property: 'borderRightWidth',
     scale: 'borderWidths',
+    transform: getPx,
   },
   borderRightColor: {
     property: 'borderRightColor',

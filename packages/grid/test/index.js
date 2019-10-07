@@ -5,6 +5,6 @@ test('returns grid styles', () => {
     gridGap: 32,
   })
   expect(style).toEqual({
-    gridGap: 32,
+    gridGap: '32px',
   })
 })

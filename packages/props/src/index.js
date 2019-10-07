@@ -13,7 +13,7 @@ import {
   buttonStyle,
   textStyle,
   colorStyle
-} from 'styled-system'
+} from 'vuejs-styled-system'
 
 const all = compose(
   space,

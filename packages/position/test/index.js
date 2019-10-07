@@ -15,7 +15,7 @@ test('returns position styles', () => {
 
 test('returns theme values', () => {
   const style = position({ top: 1, right: 2, bottom: 3, left: 4 })
-  expect(style).toEqual({ top: 4, right: 8, bottom: 16, left: 32 })
+  expect(style).toEqual({ top: '4px', right: '8px', bottom: '16px', left: '32px' })
 })
 
 test('returns pixel values', () => {

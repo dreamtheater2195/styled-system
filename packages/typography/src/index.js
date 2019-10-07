@@ -1,4 +1,4 @@
-import { system } from '@vue-styled-system/core'
+import { system, getPx } from '@vue-styled-system/core'
 
 const defaults = {
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
@@ -13,6 +13,7 @@ const config = {
     property: 'fontSize',
     scale: 'fontSizes',
     defaultScale: defaults.fontSizes,
+    transform: getPx,
   },
   fontWeight: {
     property: 'fontWeight',
@@ -25,6 +26,7 @@ const config = {
   letterSpacing: {
     property: 'letterSpacing',
     scale: 'letterSpacings',
+    transform: getPx,
   },
   textAlign: true,
   fontStyle: true,

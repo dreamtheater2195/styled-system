@@ -6,7 +6,7 @@ test('returns typography styles', () => {
     fontWeight: 'bold',
   })
   expect(style).toEqual({
-    fontSize: 32,
+    fontSize: '32px',
     fontWeight: 'bold',
   })
 })

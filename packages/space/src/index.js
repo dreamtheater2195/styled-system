@@ -1,12 +1,8 @@
-import { get, system, compose } from '@vue-styled-system/core'
+import { get, system, compose, px, isNumber } from '@vue-styled-system/core'
 
 const defaults = {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
 }
-
-const px = n => (isNumber(n) && n !== 0 ? n + 'px' : n)
-
-const isNumber = n => typeof n === 'number' && !isNaN(n)
 
 const getSpace = (n, scale) => {
   if (!isNumber(n)) {

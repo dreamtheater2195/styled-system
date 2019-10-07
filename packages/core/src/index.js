@@ -39,6 +39,12 @@ export const get = (obj, key, def, p, undef) => {
   return obj === undef ? def : obj
 }
 
+export const isNumber = n => typeof n === 'number' && !isNaN(n)
+
+export const px = n => (isNumber(n) && n !== 0 ? n + 'px' : n)
+
+export const getPx = (n, scale) => px(get(scale, n, n))
+
 export const createParser = config => {
   const cache = {}
   const parse = props => {

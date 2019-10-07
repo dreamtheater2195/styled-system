@@ -43,12 +43,12 @@ test.skip('backgroundColor prop overrides bg prop', () => {
 
 test('returns a pixel font-size', () => {
   const a = fontSize({ fontSize: 48 })
-  expect(a).toEqual({ fontSize: 48 })
+  expect(a).toEqual({ fontSize: '48px' })
 })
 
 test('uses a default font-size scale', () => {
   const a = fontSize({ fontSize: 2 })
-  expect(a).toEqual({ fontSize: 16 })
+  expect(a).toEqual({ fontSize: '16px' })
 })
 
 test('returns a string font-size', () => {
@@ -63,7 +63,7 @@ test('returns a percentage based width', () => {
 
 test('returns a pixel based width', () => {
   const a = width({ width: 256 })
-  expect(a).toEqual({ width: 256 })
+  expect(a).toEqual({ width: '256px' })
 })
 
 test('returns a string width', () => {
@@ -78,7 +78,7 @@ test('returns a width based on theme.sizes', () => {
     },
     width: 1,
   })
-  expect(a).toEqual({ width: 48 })
+  expect(a).toEqual({ width: '48px' })
 })
 
 test('returns fractional responsive widths', () => {
@@ -100,7 +100,7 @@ test('size returns width and height', () => {
   const styles = size({
     size: 4,
   })
-  expect(styles).toEqual({ width: 4, height: 4 })
+  expect(styles).toEqual({ width: '4px', height: '4px' })
 })
 
 // grid

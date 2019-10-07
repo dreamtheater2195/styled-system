@@ -32,20 +32,20 @@ test('returns individual border styles', () => {
   })
   expect(style).toEqual({
     borderTopColor: 'red',
-    borderTopWidth: 1,
+    borderTopWidth: '1px',
     borderTopStyle: 'solid',
-    borderTopLeftRadius: 5,
-    borderTopRightRadius: 5,
+    borderTopLeftRadius: '5px',
+    borderTopRightRadius: '5px',
     borderBottomColor: 'red',
-    borderBottomWidth: 1,
+    borderBottomWidth: '1px',
     borderBottomStyle: 'solid',
-    borderBottomLeftRadius: 5,
-    borderBottomRightRadius: 5,
+    borderBottomLeftRadius: '5px',
+    borderBottomRightRadius: '5px',
     borderRightColor: 'red',
-    borderRightWidth: 1,
+    borderRightWidth: '1px',
     borderRightStyle: 'solid',
     borderLeftColor: 'red',
-    borderLeftWidth: 1,
+    borderLeftWidth: '1px',
     borderLeftStyle: 'solid',
   })
 })
@@ -61,9 +61,9 @@ test('returns border top and bottom radii', () => {
     borderBottomRightRadius: 'small',
   })
   expect(style).toEqual({
-    borderTopLeftRadius: 5,
-    borderTopRightRadius: 5,
-    borderBottomRightRadius: 5,
-    borderBottomRightRadius: 5,
+    borderTopLeftRadius: '5px',
+    borderTopRightRadius: '5px',
+    borderBottomRightRadius: '5px',
+    borderBottomRightRadius: '5px',
   })
 })
