@@ -1,13 +1,13 @@
 {
   "name": "@vue-styled-system/space",
-  "version": "5.1.8",
+  "version": "5.1.11",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "author": "Brent Jackson <jxnblk@gmail.com>",
   "license": "MIT",
   "gitHead": "e55fab4cffcac677ff48b6c73b5f640e22b088a1",
   "dependencies": {
-    "@vue-styled-system/core": "^5.1.8"
+    "@vue-styled-system/core": "^5.1.11"
   },
   "publishConfig": {
     "access": "public"
