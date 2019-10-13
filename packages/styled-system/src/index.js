@@ -1,13 +1,20 @@
 import { createStyleFunction, createParser } from '@vue-styled-system/core'
 // v4 api shims
-import layout from '@vue-styled-system/layout'
+import space from '@vue-styled-system/space'
 import color from '@vue-styled-system/color'
+import layout from '@vue-styled-system/layout'
 import typography from '@vue-styled-system/typography'
 import flexbox from '@vue-styled-system/flexbox'
-import grid from '@vue-styled-system/grid'
 import border from '@vue-styled-system/border'
 import background from '@vue-styled-system/background'
 import position from '@vue-styled-system/position'
+import grid from '@vue-styled-system/grid'
+import shadow from '@vue-styled-system/shadow'
+import {
+  buttonStyle,
+  textStyle,
+  colorStyle
+} from '@vue-styled-system/variant'
 
 export {
   get,

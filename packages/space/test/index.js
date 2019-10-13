@@ -53,6 +53,38 @@ test('returns responsive values', () => {
   })
 })
 
+test('returns responsive values 2', () => {
+  const styles = space({
+    theme: {
+      space: [
+        // margin and padding
+        0,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+      ],
+    },
+    px: [3, 4],
+    py: [5, 6]
+  })
+  expect(styles).toEqual({
+    paddingLeft: '16px',
+    paddingRight: '16px',
+    paddingTop: '64px',
+    paddingBottom: '64px',
+    '@media screen and (min-width: 40em)': {
+      paddingLeft: '32px',
+      paddingRight: '32px',
+      paddingTop: '128px',
+      paddingBottom: '128px',
+    },
+  })
+})
+
 test('returns aliased values', () => {
   const styles = space({
     px: 2,

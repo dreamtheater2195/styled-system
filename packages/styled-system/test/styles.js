@@ -111,7 +111,7 @@ test('gridGap returns a scalar style', () => {
     },
     gridGap: 3,
   })
-  expect(a).toEqual({ gridGap: 8 })
+  expect(a).toEqual({ gridGap: '8px' })
 })
 
 test('gridGap uses the default scale', () => {
@@ -119,7 +119,7 @@ test('gridGap uses the default scale', () => {
     theme: {},
     gridGap: 2,
   })
-  expect(a).toEqual({ gridGap: 8 })
+  expect(a).toEqual({ gridGap: '8px' })
 })
 
 test('gridRowGap returns a scalar style', () => {
@@ -129,7 +129,7 @@ test('gridRowGap returns a scalar style', () => {
     },
     gridRowGap: 3,
   })
-  expect(a).toEqual({ gridRowGap: 8 })
+  expect(a).toEqual({ gridRowGap: '8px' })
 })
 
 test('gridRowGap uses the default scale', () => {
@@ -137,7 +137,7 @@ test('gridRowGap uses the default scale', () => {
     theme: {},
     gridRowGap: 2,
   })
-  expect(a).toEqual({ gridRowGap: 8 })
+  expect(a).toEqual({ gridRowGap: '8px' })
 })
 
 test('gridColumnGap returns a scalar style', () => {
@@ -147,7 +147,7 @@ test('gridColumnGap returns a scalar style', () => {
     },
     gridColumnGap: 3,
   })
-  expect(a).toEqual({ gridColumnGap: 8 })
+  expect(a).toEqual({ gridColumnGap: '8px' })
 })
 
 test('gridColumnGap uses the default scale', () => {
@@ -155,7 +155,7 @@ test('gridColumnGap uses the default scale', () => {
     theme: {},
     gridColumnGap: 2,
   })
-  expect(a).toEqual({ gridColumnGap: 8 })
+  expect(a).toEqual({ gridColumnGap: '8px' })
 })
 
 test('borders prop returns correct sequence', () => {
