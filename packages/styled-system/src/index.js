@@ -187,6 +187,31 @@ export {
   left,
 }
 
+export const propType = [Number, String, Array, Object]
+
+export const createPropTypes = props => {
+  return props.reduce((acc, name) => ({
+    ...acc,
+    [name]: propType,
+  }), {})
+}
+
+export const propTypes = {
+  space: createPropTypes(space.propNames),
+  color: createPropTypes(color.propNames),
+  layout: createPropTypes(layout.propNames),
+  typography: createPropTypes(typography.propNames),
+  flexbox: createPropTypes(flexbox.propNames),
+  border: createPropTypes(border.propNames),
+  background: createPropTypes(background.propNames),
+  position: createPropTypes(position.propNames),
+  grid: createPropTypes(grid.propNames),
+  shadow: createPropTypes(shadow.propNames),
+  buttonStyle: createPropTypes(buttonStyle.propNames),
+  textStyle: createPropTypes(textStyle.propNames),
+  colorStyle: createPropTypes(colorStyle.propNames),
+}
+
 // v4 style API shim
 export const style = ({
   prop,
